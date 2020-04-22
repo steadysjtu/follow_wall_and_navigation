@@ -1,0 +1,14 @@
+<launch>
+<node
+pkg="test"
+type="follow_wall_on_right.py"
+name="reading_laser"
+output="screen"
+/>
+<node
+pkg="test"
+type="navigation_photo.py"
+name="nav_test"
+output="screen"
+/>
+</launch>
